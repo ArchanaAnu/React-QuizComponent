@@ -12,7 +12,7 @@ class QuizEnd extends Component{
     }
 
     handleResetClick(){
-
+        this.props.resetClickHandler()
     }
 
 }
